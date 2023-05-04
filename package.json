@@ -1,0 +1,22 @@
+{
+    "name": "cpamatica-test",
+    "version": "1.0.0",
+    "description": "Cpamatica test plugin",
+    "author": {
+        "name": "Matthew Ermakov",
+        "email": "mazdaraser.91@gmail.com"
+    },
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start"
+    },
+    "devDependencies": {
+        "@wordpress/scripts": "^18.1.0",
+        "style-loader": "^3.3.2",
+        "file-loader": "^6.2.0",
+        "sass": "^1.43.4",
+        "sass-loader": "^12.3.0",
+        "webpack": "^5.64.4",
+        "webpack-cli": "^4.9.1"
+    }
+}
